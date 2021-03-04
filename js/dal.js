@@ -3,7 +3,7 @@ var korttype= 'Danmark';
 var geojsonlayer= null;
 var senestesekvensnummer= 0;
 var antal= 0;
-var host= "http://dawa.aws.dk";
+var host= "https://dawa.aws.dk";
 var valgtadresse=null;
 
 $(function() {
@@ -22,7 +22,7 @@ $(function() {
   });
 
   map = L.map('map',{zoom: 13});
-  var osm = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {attribution: 'Map data &copy; OpenStreetMap contributors'});
+  var osm = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {attribution: 'Map data &copy; OpenStreetMap contributors'});
   osm.addTo(map);
   map.fitBounds([
     [57.751949, 15.193240],
