@@ -3,7 +3,7 @@ var korttype= 'Danmark';
 var geojsonlayer= null;
 var senestesekvensnummer= 0;
 var antal= 0;
-var host= "https://dawa.aws.dk";
+var host= "https://api.dataforsyningen.dk";
 var valgtadresse=null;
 
 $(function() {
